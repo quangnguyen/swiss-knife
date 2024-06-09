@@ -1,0 +1,17 @@
+displayName: Swiss Knife Plugin
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/quangnguyen/swiss-knife
+
+summary: 'All in one'
+
+testData:
+  authenticationHeader: true
+  authenticationheaderName: X-API-KEY
+  bearerHeader: true
+  bearerHeaderName: Authorization
+  removeHeadersOnSuccess: true
+  keys:
+    - 83AB3503-50AA-4B57-9386-B9F0BADF2013
+
